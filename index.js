@@ -1,3 +1,4 @@
-console.log("Hello, world");
-var _ = require("lodash");
-console.log(_.last(["one", "two"]));
+const findSum = (a, b) => {
+  const sum = a + b;
+  return sum;
+};
